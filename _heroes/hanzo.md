@@ -4,11 +4,18 @@ nav_exclude: true
 title: Hanzo
 permalink: /hanzo/
 role: Damage
+great_against:
+  - Torbjorn
+good_against:
+  - Bastion
+  - Orisa
+  - Sombra
+weak_against:
+  - Widowmaker
+very_weak_against:
+  - D.Va
+  - Genji
+  - Tracer
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

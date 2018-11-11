@@ -4,11 +4,24 @@ nav_exclude: true
 permalink: /sombra/
 title: Sombra
 role: Damage
+great_against:
+  - Doomfist
+  - Tracer
+  - Wrecking Ball
+good_against:
+  - Brigitte
+  - D.Va
+  - Lucio
+  - Reinhardt
+  - Symmetra
+  - Zenyatta
+weak_against:
+  - Hanzo
+  - Junkrat
+  - mcCree
+  - Reaper
+  - Roadhog
+very_weak_against:
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

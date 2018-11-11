@@ -1,0 +1,52 @@
+
+{% if page.great_against.size > 0 %}
+<h2>Great Against</h2>
+
+<table>
+  {% tablerow hero in page.great_against cols:4 %}
+    <a href="/{{ hero | slugify }}">
+      <img src="/assets/img/{{ hero | slugify }}_portrait.png" alt="{{ hero }} Profile Picture">
+      <p>{{ hero }}</p>
+    </a>
+  {% endtablerow %}
+</table>
+{% endif %}
+
+{% if page.good_against.size > 0 %}
+<h2>Good Against</h2>
+
+<table>
+  {% tablerow hero in page.good_against cols:4 %}
+    <a href="/{{ hero | slugify }}">
+      <img src="/assets/img/{{ hero | slugify }}_portrait.png" alt="{{ hero }} Profile Picture">
+      <p>{{ hero }}</p>
+    </a>
+  {% endtablerow %}
+</table>
+{% endif %}
+
+{% if page.weak_against.size > 0 %}
+<h2>Weak Against</h2>
+
+<table>
+  {% tablerow hero in page.weak_against cols:4 %}
+    <a href="/{{ hero | slugify }}">
+      <img src="/assets/img/{{ hero | slugify }}_portrait.png" alt="{{ hero }} Profile Picture">
+      <p>{{ hero }}</p>
+    </a>
+  {% endtablerow %}
+</table>
+{% endif %}
+
+{% if page.very_weak_against.size > 0 %}
+<h2>Very Weak Against</h2>
+
+<table>
+  {% tablerow hero in page.very_weak_against cols:4 %}
+    <a href="/{{ hero | slugify }}">
+      <img src="/assets/img/{{ hero | slugify }}_portrait.png" alt="{{ hero }} Profile Picture">
+      <p>{{ hero }}</p>
+    </a>
+  {% endtablerow %}
+</table>
+{% endif %}

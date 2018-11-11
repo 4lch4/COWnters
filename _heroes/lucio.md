@@ -4,11 +4,15 @@ nav_exclude: true
 permalink: /lucio/
 title: Lucio
 role: Support
+great_against:
+good_against:
+  - Mei
+weak_against:
+  - Ana
+  - Roadhog
+  - Sombra
+very_weak_against:
+  - McCree
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

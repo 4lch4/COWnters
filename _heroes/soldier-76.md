@@ -4,11 +4,15 @@ nav_exclude: true
 permalink: /soldier-76/
 title: Soldier 76
 role: Damage
+great_against:
+  - Torbjorn
+good_against:
+  - Bastion
+  - Doomfist
+  - Pharah
+weak_against:
+  - Reinhardt
+very_weak_against:
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

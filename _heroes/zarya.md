@@ -4,11 +4,20 @@ nav_exclude: true
 permalink: /zarya/
 title: Zarya
 role: Tank
+great_against:
+  - D.Va
+  - Genji
+  - Torbjorn
+good_against:
+  - Junkrat
+  - Mei
+  - Roadhog
+weak_against:
+  - Bastion
+  - Reaper
+  - Zenyatta
+very_weak_against:
+  - Pharah
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

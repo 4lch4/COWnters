@@ -4,11 +4,21 @@ nav_exclude: true
 permalink: /reinhardt/
 title: Reinhardt
 role: Tank
+great_against:
+good_against:
+  - Soldier 76
+  - Widowmaker
+weak_against:
+  - Brigitte
+  - Doomfist
+  - Orisa
+  - Sombra
+very_weak_against:
+  - Bastion
+  - Junkrat
+  - Mei
+  - Pharah
+  - Reaper
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

@@ -4,11 +4,25 @@ nav_exclude: true
 permalink: /pharah/
 title: Pharah
 role: Damage
+great_against:
+  - Brigitte
+  - Doomfist
+  - Junkrat
+  - Reaper
+  - Reinhardt
+  - Symmetra
+  - Zarya
+good_against:
+  - Genji
+  - Mei
+  - Tracer
+weak_against:
+  - Ana
+  - D.Va
+  - Soldier 76
+very_weak_against:
+  - McCree
+  - Widowmaker
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

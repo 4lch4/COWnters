@@ -3,21 +3,18 @@ layout: page
 permalink: /ana/
 title: Ana
 role: Support
+great_against:
+good_against:
+  - Bastion
+  - Lucio
+  - Moira
+  - Pharah
+  - Torbjorn
+  - Wrecking Ball
+  - Zenyatta
+weak_against:
+  - Winston
+very_weak_against:
 ---
-## Great Against
 
-## Good Against
-
-- Bastion
-- Lucio
-- Moira
-- Pharah
-- Torbjorn
-- Wrecking Ball
-- Zenyatta
-
-## Weak Against
-
-- Winston
-
-## Very Weak Against
+{% include comparisons.html %}

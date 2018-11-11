@@ -4,11 +4,13 @@ nav_exclude: true
 permalink: /mercy/
 title: Mercy
 role: Support
+great_against:
+good_against:
+weak_against:
+  - McCree
+very_weak_against:
+  - D.Va
+  - Genji
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

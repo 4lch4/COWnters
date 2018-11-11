@@ -4,11 +4,17 @@ nav_exclude: true
 permalink: /orisa/
 title: Orisa
 role: Tank
+great_against:
+good_against:
+  - Doomfist
+  - Torbjorn
+  - Widowmaker
+weak_against:
+  - Genji
+  - Junkrat
+  - Moira
+  - Reaper
+very_weak_against:
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

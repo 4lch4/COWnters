@@ -4,11 +4,21 @@ nav_exclude: true
 permalink: /reaper
 title: Reaper
 role: Damage
+great_against:
+  - Reinhardt
+  - Roadhog
+  - Winston
+  - Zenyatta
+good_against:
+  - D.Va
+  - Orisa
+  - Sombra
+  - Wrecking Ball
+  - Zarya
+weak_against:
+  - Junkrat
+very_weak_against:
+  - Pharah
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}

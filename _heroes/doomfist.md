@@ -4,11 +4,18 @@ nav_exclude: true
 permalink: /doomfist/
 title: Doomfist
 role: Damage
+great_against:
+good_against:
+  - D.Va
+  - Genji
+  - Reinhardt
+weak_against:
+  - McCree
+  - Orisa
+  - Soldier 76
+very_weak_against:
+  - Pharah
+  - Sombra
 ---
-## Great Against
 
-## Good Against
-
-## Weak Against
-
-## Very Weak Against
+{% include comparisons.html %}
