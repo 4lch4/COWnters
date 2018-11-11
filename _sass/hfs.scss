@@ -1,0 +1,13 @@
+table {
+  border-collapse: separate;
+  text-align: center;
+  border: none;
+  
+  tr:nth-child(even) {
+    background-color: inherit;
+  }
+
+  td {
+    border: none;
+  }
+}

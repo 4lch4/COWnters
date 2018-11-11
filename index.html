@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign roles = site.heroes | group_by: "role" %}
+
+<!-- Iterate through possible roles (Tank, Support, Damage). -->
+{% for role in roles %}
+  <!-- Create the header for the current role. -->
+  <h1>{{ role.name }}</h1>
+
+  <!-- Assign the heroes within the role to the heroes variable. -->
+  {% assign heroes = role.items %}
+    <table>
+      <!-- Iterate through each hero in the role. -->
+      {% tablerow hero in heroes cols:3 %}
+        <a href="/{{ hero.title | slugify }}">
+          <img src="/assets/img/Profile-{{ hero.title | slugify }}.png" alt="{{ hero.title }} Profile Picture">
+          <p>{{ hero.title }}</p>
+        </a>
+      {% endtablerow %}
+    </table>
+{% endfor %}
+ 
