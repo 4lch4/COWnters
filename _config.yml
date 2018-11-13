@@ -27,8 +27,6 @@ description: A small tool for determining the counter of an Overwatch hero.
 # - username: jekyll2
 #   instance: example.com
 
-favicon: /assets/img/favicon.ico
-
 collections:
   heroes:
     output: true
