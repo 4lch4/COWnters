@@ -11,3 +11,18 @@ table {
     border: none;
   }
 }
+
+@font-face {
+  font-family: "BigNoodleToo";
+  src: url('/assets/fonts/bignoodletoo.ttf')
+}
+
+@font-face {
+  font-family: "KOverwatch";
+  src: url('/assets/fonts/koverwatch.ttf')
+}
+
+.hero-title {
+  font-family: "BigNoodleToo";
+  font-size: x-large;
+}

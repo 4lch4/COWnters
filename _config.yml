@@ -1,7 +1,9 @@
 title: Cownters
 author: Alcha
 email: cownters@hasslefree.solutions
+version: '0.0.1'
 description: A small tool for determining the counter of an Overwatch hero.
+repository: https://github.com/Alcha/COWnters
 
 # social links
 # twitter_username: jekyllrb

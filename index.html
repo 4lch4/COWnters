@@ -15,7 +15,7 @@ layout: default
       {% tablerow hero in heroes cols:4 %}
         <a href="/{{ hero.title | slugify }}">
           <img src="/assets/img/{{ hero.title | slugify }}_portrait.png" alt="{{ hero.title }} Profile Picture">
-          <p>{{ hero.title }}</p>
+          <p class="hero-title">{{ hero.title }}</p>
         </a>
       {% endtablerow %}
     </table>
