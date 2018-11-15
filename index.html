@@ -14,7 +14,7 @@ layout: default
       <!-- Iterate through each hero in the role. -->
       {% tablerow hero in heroes cols:4 %}
         <a href="/{{ hero.title | slugify }}">
-          <img src="/assets/img/{{ hero.title | slugify }}_portrait.png" alt="{{ hero.title }} Profile Picture">
+          <img src="/assets/img/portraits/{{ hero.title | slugify }}_portrait.png" alt="{{ hero.title }} Profile Picture">
           <p class="hero-title">{{ hero.title }}</p>
         </a>
       {% endtablerow %}

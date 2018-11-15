@@ -1,7 +1,7 @@
 ---
 layout: page
 nav_exclude: true
-permalink: /dva/
+permalink: /d-va/
 title: D.Va
 role: Tank
 great_against:
