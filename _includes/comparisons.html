@@ -6,7 +6,7 @@
   {% tablerow hero in page.very_weak_against cols:4 %}
     <a href="/{{ hero | slugify }}">
       <img src="/assets/img/portraits/{{ hero | slugify }}_portrait.png" alt="{{ hero }} Profile Picture">
-      <p>{{ hero }}</p>
+      <p class="hero-title">{{ hero }}</p>
     </a>
   {% endtablerow %}
 </table>
@@ -19,7 +19,7 @@
   {% tablerow hero in page.weak_against cols:4 %}
     <a href="/{{ hero | slugify }}">
       <img src="/assets/img/portraits/{{ hero | slugify }}_portrait.png" alt="{{ hero }} Profile Picture">
-      <p>{{ hero }}</p>
+      <p class="hero-title">{{ hero }}</p>
     </a>
   {% endtablerow %}
 </table>
@@ -33,7 +33,7 @@
   {% tablerow hero in page.good_against cols:4 %}
     <a href="/{{ hero | slugify }}">
       <img src="/assets/img/portraits/{{ hero | slugify }}_portrait.png" alt="{{ hero }} Profile Picture">
-      <p>{{ hero }}</p>
+      <p class="hero-title">{{ hero }}</p>
     </a>
   {% endtablerow %}
 </table>
@@ -46,7 +46,7 @@
   {% tablerow hero in page.great_against cols:4 %}
     <a href="/{{ hero | slugify }}">
       <img src="/assets/img/portraits/{{ hero | slugify }}_portrait.png" alt="{{ hero }} Profile Picture">
-      <p>{{ hero }}</p>
+      <p class="hero-title">{{ hero }}</p>
     </a>
   {% endtablerow %}
 </table>
