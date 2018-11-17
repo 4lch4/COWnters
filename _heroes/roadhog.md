@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /roadhog/
 title: Roadhog
 role: Tank
+difficulty: 1
 great_against:
   - Winston
 good_against:

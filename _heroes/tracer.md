@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /tracer/
 title: Tracer
 role: Damage
+difficulty: 2
 great_against:
   - Hanzo
   - Zenyatta

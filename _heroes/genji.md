@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /genji/
 title: Genji
 role: Damage
+difficulty: 3
 great_against:
   - Hanzo
   - Mercy

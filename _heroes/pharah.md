@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /pharah/
 title: Pharah
 role: Damage
+difficulty: 1
 great_against:
   - Brigitte
   - Doomfist

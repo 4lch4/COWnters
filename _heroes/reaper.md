@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /reaper
 title: Reaper
 role: Damage
+difficulty: 1
 great_against:
   - Reinhardt
   - Roadhog

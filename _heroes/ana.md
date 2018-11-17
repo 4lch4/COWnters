@@ -3,6 +3,7 @@ layout: page
 permalink: /ana/
 title: Ana
 role: Support
+difficulty: 3
 great_against:
 good_against:
   - Bastion

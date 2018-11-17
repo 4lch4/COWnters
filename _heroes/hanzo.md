@@ -4,6 +4,7 @@ nav_exclude: true
 title: Hanzo
 permalink: /hanzo/
 role: Damage
+difficulty: 3
 great_against:
   - Torbjorn
 good_against:

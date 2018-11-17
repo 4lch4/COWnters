@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /widowmaker/
 title: Widowmaker
 role: Damage
+difficulty: 2
 great_against:
   - Junkrat
   - Pharah

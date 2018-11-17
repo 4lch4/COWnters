@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /doomfist/
 title: Doomfist
 role: Damage
+difficulty: 3
 great_against:
 good_against:
   - D.Va

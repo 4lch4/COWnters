@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /lucio/
 title: Lucio
 role: Support
+difficulty: 2
 great_against:
 good_against:
   - Mei

@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /dva/
 title: D.Va
 role: Tank
+difficulty: 2
 great_against:
   - Hanzo
   - Mercy

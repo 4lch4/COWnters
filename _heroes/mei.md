@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /mei/
 title: Mei
 role: Damage
+difficulty: 3
 great_against:
   - Reinhardt
   - Roadhog

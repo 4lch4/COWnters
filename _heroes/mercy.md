@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /mercy/
 title: Mercy
 role: Support
+difficulty: 1
 great_against:
 good_against:
 weak_against:

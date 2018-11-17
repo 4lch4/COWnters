@@ -3,6 +3,7 @@ layout: page
 permalink: /ashe/
 title: Ashe
 role: Damage
+difficulty: 2
 great_against:
 good_against:
   - Pharah

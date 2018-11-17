@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /winston/
 title: Winston
 role: Tank
+difficulty: 2
 great_against:
   - Genji
   - Symmetra

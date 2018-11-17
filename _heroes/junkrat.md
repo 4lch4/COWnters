@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /junkrat/
 title: Junkrat
 role: Damage
+difficulty: 2
 great_against:
   - Torbjorn
 good_against:

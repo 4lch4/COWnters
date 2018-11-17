@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /moira/
 title: Moira
 role: Support
+difficulty: 2
 great_against:
 good_against:
   - Orisa

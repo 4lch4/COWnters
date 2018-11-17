@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /zenyatta/
 title: Zenyatta
 role: Support
+difficulty: 3
 great_against:
 good_against:
   - Zarya

@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /sombra/
 title: Sombra
 role: Damage
+difficulty: 3
 great_against:
   - Doomfist
   - Tracer

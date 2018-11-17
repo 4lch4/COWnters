@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /bastion/
 title: Bastion
 role: Damage
+difficulty: 1
 great_against:
   - Reinhardt
   - Winston

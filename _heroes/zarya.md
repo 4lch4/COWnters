@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /zarya/
 title: Zarya
 role: Tank
+difficulty: 3
 great_against:
   - D.Va
   - Genji

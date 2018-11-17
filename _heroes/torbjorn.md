@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /torbjorn/
 title: Torbjorn
 role: Damage
+difficulty: 2
 great_against:
 good_against:
   - Tracer

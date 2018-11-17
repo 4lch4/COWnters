@@ -4,6 +4,7 @@ nav_exclude: true
 permalink: /mccree/
 title: McCree
 role: Damage
+difficulty: 2
 great_against:
   - Lucio
   - Pharah
